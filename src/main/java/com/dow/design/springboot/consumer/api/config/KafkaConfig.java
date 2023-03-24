@@ -34,6 +34,7 @@ public class KafkaConfig {
     // Configuring Kafka Consumer Factory
     @Bean
     public DefaultKafkaConsumerFactory<String, String> consumerFactory() {
+        // Play with the different configurations such as deserialization, latency, poll and processing
         Map<String, Object> props = new HashMap<>();
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
         props.put( ConsumerConfig.GROUP_ID_CONFIG, "test-group");
