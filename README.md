@@ -1,5 +1,4 @@
 # springboot-consumer-api
-A base SpringBoot Consumer API  application to get you started consuming Kafka locally. Benefits of using spring is it takes a lot of the 
-boilerplate code away from the process.
+A base SpringBoot Consumer API application to get you started consuming Kafka locally. Use "local-cp-kafka-instances" to get your environment started.
 
-Please create a topic before consuming and populate it with data. Have fun!
+Create a topic before consuming and populate it with data. Have fun and happy streaming!
